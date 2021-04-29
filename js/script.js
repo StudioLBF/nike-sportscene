@@ -18,6 +18,7 @@ document.querySelector("#plus-icon").addEventListener("click", function () {
   document.querySelector(".product-specifications").classList.toggle("displaySpec");
   document.querySelector(".plus").classList.toggle("plus-close");
   document.querySelector(".shop-now-button").classList.toggle("shopNowOverlay");
+  document.querySelector(".shop-btn-container").classList.toggle("btnReveal");
 });
 
 /*Hide/show product detail div after scrolling a number of pixels*/
